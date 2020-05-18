@@ -1,8 +1,50 @@
 {
-    "users" : [
-        {"id" : "34", "firstName" : "John", "age" : "15"},
-        {"id" : "35", "firstName" : "Johnny", "age" : "25"},
-        {"id" : "36", "firstName" : "John Doe", "age" : "35"},
-        {"id" : "37", "firstName" : "Johnnie Cochran", "age" : "55"}
-    ]
+  "users": [
+    {
+      "id": "34",
+      "firstName": "Simpson",
+      "age": "15",
+      "companyId": "1"
+    },
+    {
+      "id": "35",
+      "firstName": "Johnny",
+      "age": "25",
+      "companyId": "2"
+    },
+    {
+      "id": "36",
+      "firstName": "John Doe",
+      "age": "35",
+      "companyId": "3"
+    },
+    {
+      "id": "37",
+      "firstName": "Johnnie Cochran",
+      "age": "55",
+      "companyId": "3"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Intuit",
+      "description": "QuickBooks"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "Search"
+    },
+    {
+      "id": "3",
+      "name": "Apple",
+      "description": "Iphone"
+    },
+    {
+      "id": "4",
+      "name": "Amazon",
+      "description": "Delivery"
+    }
+  ]
 }
